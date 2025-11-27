@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VigioPlugins", "vigio\VigioPlugins.csproj", "{D4C339BA-F6E3-4839-8B2D-392F850480FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{24F2D647-AA52-483F-8676-AD437F04F243}"
+	ProjectSection(SolutionItems) = preProject
+		inspecao.js = inspecao.js
+		Ocorrencia_ribbon.js = Ocorrencia_ribbon.js
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
